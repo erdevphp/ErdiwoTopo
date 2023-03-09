@@ -275,6 +275,7 @@ $(function(){
                     borderWidth: 1
                 }]
             };
+            
             const barChart = new  Chart(barCanvas, {
                 type: 'bar',
                 data: data,
