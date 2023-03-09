@@ -157,6 +157,10 @@ $(function(){
             removeCanvas.remove();
             removePmi.remove();
         }
+
+        // On récupère l'élément input d'id readonly qui à la propriété readonly et on le vide
+        const inputreadonly = document.querySelector("input#readonly")
+        inputreadonly.value = ''
         
         // On récupère le compteur pour déterminer le nombre de ligne existant
         const counter = datacounter.getAttribute('data-counter')
